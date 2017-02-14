@@ -7,7 +7,7 @@ Requires Node.js, npm
 
 ---
 
-[DEMO](https://ils-demo.herokuapp.com/)
+[DEMO](https://ils-demo.herokuapp.com/) (only few phrases working at the moment)
 
 ---
 
