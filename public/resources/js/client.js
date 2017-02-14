@@ -22,6 +22,16 @@ $(window).load(function(){
 			
 		}
 		
+		else if(data.results[0][0] == 'moderateLanguage'){
+			
+			console.log('performing action moderateLanguage');
+			
+			var text = 'Please moderate your language';
+			var textSpeech = new SpeechSynthesisUtterance(text);
+			window.speechSynthesis.speak(textSpeech);
+			
+		}
+		
 		else if(data.results[0][0] == 'scheduleMatch'){
 			
 			console.log('performing action scheduleMatch');
