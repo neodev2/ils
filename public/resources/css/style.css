@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+}
+
+#askCont {
+	margin-top: 16px;
+	padding: 8px 0;
+	text-align: center;
+	/* background: rgb(15, 114, 177); */
+}
+
+#ask {
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #c5c5c5;
+	padding: 4px 6px 5px;
+	width: 490px;
+	font-size: 1.1em;
+	border-radius: 4px;
+}
+
+#askBtn {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2px;
+	border: 1px solid #c5c5c5;
+	padding: 6px 11px 6px;
+	font-size: 1em;
+	background: white;
+	border-radius: 4px;
+	cursor: pointer;
+}

@@ -1,0 +1,181 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 17.4px;
+}
+
+.clickable {
+	font-size: 0.93em;
+	color: rgba(116, 143, 178, 0.81);
+	color: rgba(62, 62, 193, 0.69);
+	cursor:pointer;
+}
+.clickable:hover {
+	color: rgb(62, 62, 193);
+}
+
+
+#jsonTEXTAREA {
+	display: block;
+	width: 100%;
+}
+
+
+#jsonFormDIV {
+	margin: 31px;
+	/* padding: 3px 8px; */
+	/* background: rgb(241, 241, 241); */
+	box-shadow: 0 0 1px #000000;
+}
+
+
+#jsonFormDataDIV {
+	margin: 20px 0;
+	padding: 0px 0;
+	/* background: white; */
+	box-shadow: 0 0 1px #cacaca;
+}
+
+
+ol {
+	display: block;
+	margin: 0 0 48px;
+	color: #e4e4e4;
+}
+ol > span:first-child {
+	display: inline-block;
+	margin: 0 0 3px;
+}
+li {
+	padding: 1px 0 1px 7px;
+	box-shadow: 0 0 0 1px #eaeaea;
+}
+li.activeLI {
+	box-shadow: 0 0 1px 1px rgb(148, 0, 193);
+}
+li.deleted {
+	background: #ffe3e8;
+	color:red;
+}
+li.activeLI.deleted {
+	box-shadow: 0 0 1px 1px rgb(193, 0, 0);
+}
+li.arrayLI {
+	
+}
+li > * {
+	vertical-align: baseline;
+}
+li > img {
+
+}
+li > .indexSPAN {
+	font-weight: bold;
+	color: #a96e20;
+}
+.objectNameINPUT,
+.arrayNameINPUT {
+    margin: 0px 0 0px;
+    border-style: solid;
+    border-width: 2px;
+}
+.objectNameINPUT {
+    border-color: rgb(200, 165, 220);
+}
+.arrayNameINPUT {
+    border-color: rgba(57, 171, 216, 0.59);
+}
+li > input,
+li > textarea {
+	border: 1px solid gray;
+	padding: 1px 6px;
+	font-size: 0.81em;
+	color: #040088;
+	/* color: black; */
+	border-radius: 7px;
+}
+li > input {
+	margin-right: 5px;
+}
+li > textarea {
+	vertical-align: -5px;
+	margin-right: 2px;
+	min-height: 21px;
+}
+
+
+.pasteIMG {
+	display:none;
+}
+.pasteAttributesIMG {
+	display:none;
+}
+.pasteChildnodesIMG {
+	display:none;
+}
+
+
+.rightTEXTAREA {
+	height:16px;
+	width:200px;
+}
+.expandedTEXTAREA {
+	height:180px;
+	width:360px;
+}
+.checkbox {
+
+}
+i {
+	
+}
+
+
+.readonlyINPUT {
+	color:#999;
+}
+
+
+DIV#messageDIV {
+	position:absolute;
+	width:200px;
+	padding:12px;
+}
+DIV.messageCloseDIV {
+	background:#000;
+}
+DIV.messageAutoCloseDIV {
+	background:#999;
+}
+DIV#messageDIV IMG#messageCloseIMG {
+	float:right;
+	cursor:pointer;
+}
+DIV#messageContentDIV,
+DIV#messageContentDIV B {
+	color:#fff;
+}
+
+
+DIV.IDIV {
+	width:11px;
+	height:11px;
+	float:left;
+	margin:1px;
+}
+DIV.lIDIV {
+	width:13px;
+	height:12px;
+	float:left;
+	margin:1px;
+}
+
+
+#newJsonTEXTAREA {
+	display: block;
+}
+#evalButtonINPUT {
+	
+}
