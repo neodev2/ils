@@ -9,3 +9,7 @@ to do:
 ---
 
 ![alt tag](http://i.imgur.com/xfZtbPk.png)
+
+---
+
+Requires Node.js, npm
