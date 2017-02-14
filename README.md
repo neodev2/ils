@@ -7,9 +7,12 @@ Requires Node.js, npm
 
 ---
 
+[DEMO](https://ils-demo.herokuapp.com/)
+
+---
+
 to do:
 - utterances???
-- create a demo
 
 ---
 
