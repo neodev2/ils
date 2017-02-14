@@ -120,9 +120,11 @@ function matchIntents(_query, obj){
 		winnersArray[i].push(obj.intents[winnersArray[0][0]].parameters);
 		
 		// modify the just added array (pick params from db obj)
-		for(let i2=0; i2<winnersArray[i][2].length; i2++){
-			if(obj.entities[winnersArray[i][2][i2]['name']]){
-				winnersArray[i][2][i2]['name'] = obj.entities[winnersArray[i][2][i2]['name']];
+		if(winnersArray[i][2]){
+			for(let i2=0; i2<winnersArray[i][2].length; i2++){
+				if(obj.entities[winnersArray[i][2][i2]['name']]){
+					winnersArray[i][2][i2]['name'] = obj.entities[winnersArray[i][2][i2]['name']];
+				}
 			}
 		}
 	}
