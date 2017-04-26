@@ -8,6 +8,7 @@ $(window).load(function(){
 			
 			var text = 'it\'s '+getDatetime().readableTime;
 			var textSpeech = new SpeechSynthesisUtterance(text);
+            textSpeech.lang = 'en-US';
 			window.speechSynthesis.speak(textSpeech);
 			
 		}
@@ -18,6 +19,7 @@ $(window).load(function(){
 			
 			var text = 'it\'s '+getDatetime().readableDate;
 			var textSpeech = new SpeechSynthesisUtterance(text);
+            textSpeech.lang = 'en-US';
 			window.speechSynthesis.speak(textSpeech);
 			
 		}
@@ -28,6 +30,7 @@ $(window).load(function(){
 			
 			var text = 'Please moderate your language';
 			var textSpeech = new SpeechSynthesisUtterance(text);
+            textSpeech.lang = 'en-US';
 			window.speechSynthesis.speak(textSpeech);
 			
 		}
