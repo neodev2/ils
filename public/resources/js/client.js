@@ -44,6 +44,11 @@ $(window).load(function(){
 		else{
 			
 			console.log('cannot perform action: not recognized');
+            
+            var text = 'cannot perform action: not recognized';
+			var textSpeech = new SpeechSynthesisUtterance(text);
+            textSpeech.lang = 'en-US';
+			window.speechSynthesis.speak(textSpeech);
 			
 		}
 		
