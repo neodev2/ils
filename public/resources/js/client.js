@@ -100,13 +100,18 @@ $(window).load(function(){
 
         else if(intentTopName == 'None'){
 
-            var title = intentTopName;
+            /*var title = intentTopName;
 
             swal({
                 type: 'warning',
                 title: title,
                 text: 'Sorry, no stuff'
-            });
+            });*/
+            
+            var text = 'Sorry, no stuff';
+            var textSpeech = new SpeechSynthesisUtterance(text);
+            textSpeech.lang = 'en-US';
+            window.speechSynthesis.speak(textSpeech);
 
         }
 
